@@ -27,6 +27,25 @@ body {
 	padding-bottom: 10px;
 }
 
+.bubble {
+    background: #6F34EF;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 6px 0 rgba(0,0,0,0.08);
+}
+
+.note {
+    font-size: 1rem;
+    background: #733beb;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
 .content {
   margin-left: 240px;
   padding: 20px;
