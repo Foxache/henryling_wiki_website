@@ -1,6 +1,6 @@
 body {
   font-family: "Arial", sans-serif;
-  background: #040007;
+  background: #812dc2;
   color: white;
   line-height: 2;
 }
@@ -30,7 +30,7 @@ body {
 .bubble {
     background: #6F34EF;
     color: #ffffff;
-    border-radius: 30px;
+    border-radius: 60px;
     padding: 25px;
     margin-bottom: 25px;
     box-shadow: 0 6px 0 rgba(0,0,0,0.08);
@@ -40,7 +40,7 @@ body {
     font-size: 1rem;
     background: #733beb;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 60px;
     padding: 10px;
     margin-bottom: 10px;
 }
