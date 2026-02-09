@@ -1,6 +1,6 @@
 body {
   font-family: "Arial", sans-serif;
-  background: #6F34EF;
+  background: #0f0f0f;
   color: white;
   line-height: 2;
 }
@@ -30,11 +30,11 @@ body {
 .bubble {
     background: #6F34EF;
     color: #ffffff;
-    border-radius: 60px;
+    border-radius: 30px;
     padding: 25px;
     margin-bottom: 25px;
-	margin-left:20px;
-	margin-right:20px;
+	margin-left:30px;
+	margin-right:30px;
     box-shadow: 0 6px 0 rgba(0,0,0,0.08);
 }
 
@@ -42,11 +42,11 @@ body {
     font-size: 1rem;
     background: #733beb;
     text-align: center;
-    border-radius: 60px;
+    border-radius: 30px;
     padding: 10px;
     margin-bottom: 10px;
-	margin-left:10px;
-	margin-right:10px;
+	margin-left:30px;
+	margin-right:30px;
 }
 
 
