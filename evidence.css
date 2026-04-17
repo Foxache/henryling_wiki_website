@@ -131,3 +131,76 @@ img {
     0 0 12px 4px rgba(255, 0, 0, 0.45),
     0 0 24px 10px rgba(255, 0, 0, 0.25);
 }
+
+.timeline-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 2rem;
+}
+
+.timeline {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.quote-item {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding-bottom: clamp(40px, 6vw, 120px);
+}
+
+.quote-item::after {
+    content: "";
+    position: absolute;
+    left: 28px;
+    top: 60px;
+    width: 2px;
+    height: calc(100% - 60px);
+    background: #ddd;
+}
+
+.quote-item:last-child::after {
+    display: none;
+}
+
+.avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ccc;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.quote-content {
+    flex: 1;
+    max-width: 100%;
+}
+
+.quote-text {
+    font-size: 1.05rem;
+    line-height: 1.55;
+}
+
+.quote-author {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 6px;
+}
+
+.connector-label {
+  position: absolute;
+  left: 40px;       
+  top: calc(50% + 30px);
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  color: #666;
+  z-index: 1;        
+  white-space: nowrap;
+}
