@@ -98,10 +98,8 @@
 
     </body>
     <script>
-        document.body.style.overflow = "hidden";
-
         document.getElementById("accept-warning").addEventListener("click", () => {
-        document.getElementById("warning-overlay").style.display = "none";
+        document.getElementById("warning-overlay").remove();
         document.body.style.overflow = "auto";
         });
     </script>
@@ -110,8 +108,8 @@
         const tooltip = document.getElementById("img-tooltip");
 
         document.addEventListener("mousemove", (e) => {
-            tooltip.style.left = e.pageX + "px";
-            tooltip.style.top = e.pageY + "px";
+        tooltip.style.left = (e.clientX + 20) + "px";
+        tooltip.style.top = (e.clientY + 100) + "px";
         });
 
         document.querySelectorAll("img").forEach(img => {
